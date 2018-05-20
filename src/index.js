@@ -8,9 +8,9 @@ import NaplanSchoolData from './Components/NaplanSchoolData/NaplanSchoolData';
 import SchoolComparison from './Components/SchoolComparison/SchoolComparison';
 import CustomGroups from './Components/CustomGroups/CustomGroups';
 import GroupChart from './Components/CustomGroups/GroupChart';
-import 'bootstrap/dist/css/bootstrapSandstone.css';
+import 'bootstrap/dist/css/bootstrap.css';
 import store from './Redux/Store';
-  
+
 const target = document.getElementById('root');
 
 ReactDOM.render((
@@ -24,7 +24,7 @@ ReactDOM.render((
       </Route>
     </Router>
   </Provider>
- 
+
 ),
-  target 
+  target
 );
